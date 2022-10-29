@@ -1,7 +1,7 @@
 create database papeleria;
 use papeleria;
 create table cliente(
-	idCliente int not null auto_increment,
+    idCliente int not null auto_increment,
     nombre varchar(45) not null,
     email varchar(45),
     telefono varchar(45),
